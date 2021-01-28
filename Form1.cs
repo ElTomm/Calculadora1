@@ -40,7 +40,7 @@ namespace Calculadora1
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            MassegeBox.Show("presione aquí para obtener su resultado");
         }
 
         private void Form1_Load(object sender, EventArgs e)

@@ -37,10 +37,15 @@ namespace Calculadora1
                 lblres.Text = (op.Div(double.Parse(txtv1.Text), double.Parse(txtv2.Text))).ToString();
             }
         }
+        
+        private void lblres_MouseMove(object sender, EventArgs e)
+        {
+            MessageBox.Show("presione en resultado");
+        }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MassegeBox.Show("presione aquí para obtener su resultado");
+          
         }
 
         private void Form1_Load(object sender, EventArgs e)

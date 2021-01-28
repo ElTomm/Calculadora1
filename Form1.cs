@@ -42,6 +42,16 @@ namespace Calculadora1
         {
             MessageBox.Show("presione en resultado");
         }
+        
+        private void lblv1_Mouse(object sender, EventArgs e)
+        {
+            MessageBox.Show("coloque aquí su primer valor");
+        }
+        
+        private void lblv2_Mouse(object sender, EventArgs e)
+        {
+            MessageBox.Show("coloque aquí su segundo valor");
+        }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
